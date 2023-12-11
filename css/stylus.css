@@ -175,6 +175,14 @@ figure > img, header > img {
     transition: .3s;
 }
 
+.titulo{
+    padding-top: 60px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    color: #000;    
+}
+
 
 
 /* .card img{
@@ -238,6 +246,8 @@ figure > img, header > img {
 
 
 
+
+
 .card-frame{
     position: absolute;
     /* z-index: 99; */
@@ -246,3 +256,64 @@ figure > img, header > img {
     margin-top:-5px;
     margin-left: -5px;
  }
+
+ .modal-detail{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+ }
+
+ .modal-detail img{
+    /* width: 50%; */
+    height: 90vh;
+    margin: auto;
+ }
+
+ .card-info{
+    
+    background-color: #fff;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .card-info p{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+ }
+
+ .detail{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.resumo{
+    display: grid;
+    flex-direction: column;
+
+}
+
+iframe{
+    width: 250px;
+    height: 100%;
+    display: grid;
+}
+
+.card1{
+       display: grid;
+       position: relative;
+    grid-auto-columns: max-content;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    }
